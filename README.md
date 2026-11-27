@@ -1,37 +1,44 @@
-# Nova Mart – Retail Promotions & Campaign Performance Analysis
+# 📊 Nova Mart – Retail Promotions & Campaign Performance Analysis
+
+### Data-Driven Analysis of Retail Campaigns
 
 ## 1. Project Overview
 
-Nova Mart is a major retail chain operating across southern India, with 50 stores selling Nova-branded products.
+Nova Mart is a major retail chain operating across Southern India, with 50 stores selling Nova-branded products.
 
 The company conducted two major promotional campaigns:
 
 - Diwali 2023
 - Sankranti 2024
 
-The objective of this project is to analyze the effectiveness of these campaigns using Python and Pandas.
+This project analyzes retail promotional performance using Python, Pandas and data visualization techniques.
 
-The analysis focuses on sales performance before and after promotions, product revenue, store performance, promotional effectiveness, and data quality.
+The objective is to evaluate campaign effectiveness, understand sales patterns, identify high-performing products and stores, and generate actionable business insights.
 
-The goal is to provide meaningful business insights that help Nova Mart make better decisions for future promotional campaigns.
+The project is divided into two client assignments, each addressing different business requirements.
 
 ## 2. Business Objectives
 
-- Evaluate the performance of Diwali and Sankranti campaigns.
-- Analyze sales before and after promotions.
-- Identify duplicate records and handle missing values.
-- Understand store distribution across cities.
-- Identify product categories with the lowest base prices.
-- Evaluate the effectiveness of different promotional types.
-- Identify products generating the highest incremental revenue.
-- Identify stores with the lowest incremental sales growth.
-- Recommend better promotional strategies based on data.
+- Evaluate promotional campaign performance.
+- Compare sales before and after promotions.
+- Perform data cleaning and validation.
+- Analyze store and product performance.
+- Evaluate promotional effectiveness.
+- Identify revenue and sales growth opportunities.
+- Generate actionable business recommendations.
 
 ## 3. Dataset Description
 
-The analysis was performed using four CSV datasets provided as part of the project. These datasets contain campaign details, product information, store information, and promotional sales records.
+The project uses four datasets:
 
-**Note:** The original datasets are not included in this GitHub repository due to data-sharing restrictions.
+| Dataset | Description |
+|---|---|
+| `dim_campaigns` | Campaign details |
+| `dim_products` | Product information and categories |
+| `dim_stores` | Store information and city details |
+| `fact_events` | Sales and promotional transaction data |
+
+**Note:** Original datasets are not included in this repository due to data-sharing restrictions.
 
 ## 4. Tools & Technologies
 
@@ -39,42 +46,73 @@ The analysis was performed using four CSV datasets provided as part of the proje
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Jupyter Notebook
 
-## 5. Business Questions, Analysis & Answers
-
-## 8. Project Structure
+## 5. Project Structure
 
 ```text
-Retail-Promotions-Analytics/
+Nova-Mart-Retail-Promotions-Analytics/
 │
-├── Retail_Promotions_Analytics.ipynb
+├── README.md
 │
-└── README.md
+├── Client-Requests-1/
+│   ├── README.md
+│   └── Client_Request_1.ipynb
+│
+└── Client-Requests-2/
+    ├── README.md
+    └── Client_Request_2.ipynb
 ```
 
-## 9. How to Run the Project
+## 6. Client Assignments
 
-**Step 1: Clone the repository**
+### Client Requests – 1
+**Campaign Performance & Data Quality Analysis**
 
-Clone the GitHub repository to your local machine.
+Focus areas:
+- Diwali and Sankranti campaign comparison
+- Data cleaning and duplicate removal
+- Product and category analysis
+- Promotional effectiveness
+- Store-level performance
 
-**Step 2: Install the required libraries**
+[View Client Requests – 1](./Client-Requests-1/README.md)
 
-Required libraries include Pandas, NumPy, Matplotlib, and Jupyter Notebook.
+### Client Requests – 2
+**Retail Performance & Promotional Effectiveness Analysis**
 
-**Step 3: Obtain the datasets separately**
+Focus areas:
+- City-wise store distribution
+- Category-wise sales contribution
+- Price and sales quantity correlation
+- Pre-promotion sales distribution
+- City-wise incremental sold units percentage
+- Promotion type performance
+- Category-wise revenue growth
 
-The original CSV datasets are not included in this repository due to data-sharing restrictions. You must have authorized access to the original project datasets to execute the notebook.
+[View Client Requests – 2](./Client-Requests-2/README.md)
 
-**Step 4: Configure dataset paths**
+## 7. How to Run the Project
 
-Place the authorized CSV files in your local working directory and update the file paths in the notebook accordingly.
+1. Clone the GitHub repository.
+2. Install the required Python libraries.
+3. Obtain authorized access to the original datasets.
+4. Configure the dataset paths in the notebooks.
+5. Open the respective Jupyter Notebook and execute the cells sequentially.
 
-**Step 5: Launch Jupyter Notebook**
+Install dependencies:
 
-Open `Retail_Promotions_Analytics.ipynb` and execute the cells sequentially.
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
 
----
+## 8. Conclusion
 
-**Skills Demonstrated:** Python | Pandas | NumPy | Data Cleaning | Data Manipulation | Data Analysis | Data Aggregation | Data Visualization | Business Analytics
+This project demonstrates how Python-based data analytics can transform retail transaction data into meaningful business insights.
+
+By analyzing campaign performance, product categories, stores and promotional strategies, the project helps identify opportunities to improve sales growth and future promotional planning.
+
+## Skills Demonstrated
+
+Python | Pandas | NumPy | Data Cleaning | Exploratory Data Analysis | Data Visualization | Statistical Analysis | Business Analytics
