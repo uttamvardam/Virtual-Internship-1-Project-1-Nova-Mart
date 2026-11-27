@@ -261,10 +261,6 @@ These insights can help businesses improve promotional planning, allocate resour
 
 ---
 
-## 👨‍💻 Author
 
-**Retail Promotions Analytics Project**
-
-*Data Analysis | Python | Pandas | Business Insights | Data Visualization*
 
 
