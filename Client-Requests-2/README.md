@@ -1,6 +1,4 @@
-# 📊 Retail Promotions Analytics
-
-### Analyzing Campaign Performance & Driving Data-Driven Business Decisions
+# 📊 Nova Mart – Retail Promotions & Campaign Performance Analysis
 
 ## 📌 Project Overview
 
